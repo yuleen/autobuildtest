@@ -1,11 +1,7 @@
-#ifndef BUILD_H 
+#ifndef BUILD_H
+#define BUILD_H
  
-#define BUILD_H 
- 
-#define APP_VERSION_STRING "1.0" 
- 
-#define APP_BUILD_NO 55 
- 
-#define APP_COMMIT_HASH "e234822" 
- 
+// 正式建置時建置用的批次檔會自動產生這個檔案
+// 這裡預留這個檔案避免開發測試時產生編譯錯誤
+
 #endif // BUILD_H 
