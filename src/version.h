@@ -23,7 +23,7 @@
 // 這個 hash 可以用來追蹤 bug 是在哪個 commit 中產生的, 預設值是空白
 // 軟體建置時會從版本庫中取得這個 hash
 #ifndef APP_COMMIT_HASH
-#define APP_COMMIT_HASH
+#define APP_COMMIT_HASH ""
 #endif
 
 // in master brach

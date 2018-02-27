@@ -1,21 +1,20 @@
-IDI_ICON1   ICON    DISCARDABLE "icon/backup_64x64.ico"
+
+#include "resource_version.h"
 
 1 VERSIONINFO
-FILEVERSION     1,3,0,0
-PRODUCTVERSION  1,3,0,0
 BEGIN
   BLOCK "StringFileInfo"
   BEGIN
     BLOCK "040904E4"
     BEGIN
       VALUE "CompanyName", "InnoServFA"
-      VALUE "FileDescription", "Mitsubishi Backup Wizard"
-      VALUE "FileVersion", "1.3"
+      VALUE "FileDescription", "AutoBuildTest"
+      VALUE "FileVersion", APP_VERSION
       VALUE "InternalName", ""
       VALUE "LegalCopyright", "InnoServFA"
-      VALUE "OriginalFilename", "MitsubishiBackup.exe"
-      VALUE "ProductName", "Mitsubishi Backup Wizard"
-      VALUE "ProductVersion", "1.3"
+      VALUE "OriginalFilename", ""
+      VALUE "ProductName", "AutoBuildTest"
+      VALUE "ProductVersion", APP_VERSION
     END
   END
 

@@ -4,6 +4,8 @@ QT += widgets
 target.path = bin
 INSTALLS += target
 
+RC_FILE = resource/resource.rc
+
 FORMS += \
     src/mainwindow.ui
 
@@ -15,4 +17,7 @@ HEADERS += \
 SOURCES += \
     src/mainwindow.cpp \
     src/main.cpp
+
+OTHER_FILES += \
+    resource/resource.rc
 
