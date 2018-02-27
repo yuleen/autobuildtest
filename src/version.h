@@ -26,4 +26,6 @@
 #define APP_COMMIT_HASH
 #endif
 
+// in master brach
+
 #endif // VERSION_H
