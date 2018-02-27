@@ -1,4 +1,5 @@
 
+; 從 build.ini 檔案中讀取版本資訊
 #define APP_VERSION ReadIni(SourcePath+"\build.ini", "Version", "AppVersion", "0.0")
 #define APP_BUILD_NO ReadIni(SourcePath+"\build.ini", "Version", "BuildNo", "0")
 #define APP_COMMIT_HASH ReadIni(SourcePath+"\build.ini", "Version", "CommitHash", "")
