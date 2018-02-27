@@ -6,10 +6,10 @@
 [Setup]
 AppName=AutoBuildTest
 AppVersion={#APP_VERSION}_build {#APP_BUILD_NO}
-;VersionInfoProductVersion={#APP_VERSION}
-;VersionInfoVersion={#APP_VERSION}
+VersionInfoProductVersion={#APP_VERSION}
+VersionInfoVersion={#APP_VERSION}
 VersionInfoCompany=InnoServ FA
-;VersionInfoProductName={#SetupSetting("AppName")}
+VersionInfoProductName={#SetupSetting("AppName")}
 DefaultDirName={sd}\{#SetupSetting("AppName")}
 DefaultGroupName=InnoServFA\{#SetupSetting("AppName")}
 UninstallDisplayIcon={app}\{#SetupSetting("AppName")}.exe
