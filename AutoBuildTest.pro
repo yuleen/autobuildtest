@@ -13,5 +13,6 @@ HEADERS += \
     src/build.h
 
 SOURCES += \
-    src/mainwindow.cpp
+    src/mainwindow.cpp \
+    src/main.cpp
 
